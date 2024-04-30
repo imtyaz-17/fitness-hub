@@ -3,7 +3,7 @@
         "id": "63352696b4b1bd499fa2bc0b",
         "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600",
         "name": "Barbell",
-        "description": "A barbell is a piece of exercise equipment used in weight training. \r\n",
+        "description": "A barbell is a piece of exercise equipment used in weight training. A barbell is a piece of exercise.\r\n",
         "age": "20-25",
         "time": 30
     },
@@ -11,7 +11,7 @@
         "id": "63347c0958394b2dd113381e",
         "image": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2019-05-09-at-4-52-51-pm-1557436377.jpg",
         "name": "Single-leg dead lifts",
-        "description": "This is another exercise that challenges your balance. Single-leg dead lifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
+        "description": "This is another exercise that challenges your balance. Single-leg dead lifts require stability and leg strength.",
         "age": "20-40",
         "time": 20
     },

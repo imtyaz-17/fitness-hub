@@ -1,0 +1,46 @@
+.exercise {
+    height: 400px;
+    width: 300px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: -7px 9px 49px 0px rgba(0, 0, 0, 0.15);
+}
+
+.exercise img {
+    width: 280px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.exercise-info {
+    margin: 10px;
+    text-align: left;
+}
+
+.exercise-info p {
+    margin-top: 5px;
+}
+
+.exercise-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 21px;
+    line-height: 25px;
+}
+
+.btn-cart {
+    width: 95%;
+    color: #FFFFFF;
+    background: #4747f8;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

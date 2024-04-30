@@ -1,0 +1,15 @@
+.header-icon {
+    color: #4747f8;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.exercises-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 80px 50px;
+}
