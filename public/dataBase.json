@@ -1,0 +1,74 @@
+[
+    {
+        "id": "63352696b4b1bd499fa2bc0b",
+        "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "name": "Barbell",
+        "description": "A barbell is a piece of exercise equipment used in weight training. \r\n",
+        "age": "20-25",
+        "time": 30
+    },
+    {
+        "id": "63347c0958394b2dd113381e",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2019-05-09-at-4-52-51-pm-1557436377.jpg",
+        "name": "Single-leg dead lifts",
+        "description": "This is another exercise that challenges your balance. Single-leg dead lifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
+        "age": "20-40",
+        "time": 20
+    },
+    {
+        "id": "6335269641a74bc3461bd2f1",
+        "image": "https://images.unsplash.com/photo-1540558870477-e8c59bf88421?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+        "name": "Treadmill",
+        "description": "Treadmill working is an aerobic cardio exercise.\r\n",
+        "age": "21-29",
+        "time": 40
+    },
+    {
+        "id": "633526960cae02eed0bce02a",
+        "image": "https://manofmany.com/wp-content/uploads/2020/07/Best-Dumbbell-Exercises-For-Men-1.jpg",
+        "name": "Dummbel",
+        "description": "The dumbbell, a type of free weight, is a piece of equipment used in weight training.\r\n",
+        "age": "20-30",
+        "time": 45
+    },
+    {
+        "id": "63352696429ce3b482319b0b",
+        "image": "https://cdn.webshopapp.com/shops/281654/files/282880398/platinum-pro-cross-trainer.jpg",
+        "name": "Cross Traninner",
+        "description": "It's all about teamwork: pushing on the pedals works your thighs, glutes and calves.\r\n",
+        "age": "19-30",
+        "time": 25
+    },
+    {
+        "id": "63352696fa87991a54b59923",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbF5S_HM54mSwW66XxAEPnEaNcFzzsynb81g&usqp=CAU",
+        "name": "Dipping Bars",
+        "description": "The pectoralis major muscle of the chest is the primary muscle that is worked during parallel bar dips.\r\n",
+        "age": "20-27",
+        "time": 35
+    },
+    {
+        "id": "633526967dea57829efb207b",
+        "image": "https://hirakraja.com/4751-large_default/chin-up-and-dip-station-ab-tower-full-body-workout-power-tower.jpg",
+        "name": "Power Tower",
+        "description": "A power tower, or a knee raise station, is a piece of exercise equipment.\r\n",
+        "age": "20-32",
+        "time": 25
+    },
+    {
+        "id": "63347c09b411eee78e859a54",
+        "image": "https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2022/10/26150738/static-lunge-600-demo.jpg",
+        "name": "Lunges",
+        "description": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs.",
+        "age": "20-32",
+        "time": 60
+    },
+    {
+        "id": "63347c09ff14dcfe1e4e82c0",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/bodybuilder-doing-push-ups-royalty-free-image-1636040776.jpg",
+        "name": "Pushups",
+        "description": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
+        "age": "20-35",
+        "time": 60
+    }
+]
