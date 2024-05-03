@@ -8,13 +8,11 @@
 
 .exercise-info {
     margin-bottom: 60px;
-
 }
 
 .exercise-info img {
     width: 100%;
     height: 120px;
-    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -29,7 +27,6 @@
 
 .btn-cart {
     width: calc(100% - 40px);
-    ;
     color: #FFFFFF;
     background-color: #4747f8;
     border: none;
@@ -45,4 +42,27 @@
 .btn-cart:hover {
     cursor: pointer;
     background-color: #059160;
+}
+
+@media screen and (max-width: 768px) {
+    .exercise {
+        padding: 15px;
+    }
+
+    .exercise-info {
+        margin-bottom: 40px;
+    }
+
+    .exercise-info h2,
+    p {
+        margin: 5px;
+    }
+
+    .exercise-info img {
+        height: 100px;
+    }
+
+    .btn-cart {
+        margin: 15px;
+    }
 }

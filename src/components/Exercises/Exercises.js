@@ -3,7 +3,7 @@ import './Exercises.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Exercise from '../Exercise/Exercise';
-import Aside from '../Aside/Aside';
+
 const Exercises = () => {
     const [exercises, setExercises] = useState([]);
     useEffect(() => {

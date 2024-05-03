@@ -1,7 +1,7 @@
 import React from 'react';
 import './Exercise.css';
-const Exercise = (props) => {
-    const { image, name, description, age, time } = props.exercise;
+const Exercise = ({ exercise }) => {
+    const { id, image, name, description, age, time } = exercise;
     const stringSlicer = (str) => {
         if (str.length > 100) {
             return (str.slice(0, 100) + '...')
@@ -9,6 +9,10 @@ const Exercise = (props) => {
         return str;
     }
     const exerciseDescription = stringSlicer(description);
+
+    const handleAddCart = (id) => {
+        console.log('add', id)
+    }
     return (
         <div className='exercise'>
             <div className='exercise-info'>
@@ -18,7 +22,7 @@ const Exercise = (props) => {
                 <p className='age'>For Age: <strong>{age}</strong></p>
                 <p className='time-required'>Time Required: <strong>{time}s</strong></p>
             </div>
-            <button className='btn-cart'>
+            <button onClick={() => handleAddCart(id)} className='btn-cart'>
                 <p className='btn-text'>Add to Cart</p>
             </button>
         </div>

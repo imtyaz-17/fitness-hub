@@ -18,7 +18,7 @@ const UserProfile = () => {
                 </div>
                 <div className="user-info">
                     <h3>{user.name}</h3>
-                    <small> <FontAwesomeIcon className='location-icon' icon={faLocationDot}></FontAwesomeIcon> {user.location}</small>
+                    <p> <FontAwesomeIcon className='location-icon' icon={faLocationDot}></FontAwesomeIcon> {user.location}</p>
                 </div>
             </div>
             <div className="bio-container">

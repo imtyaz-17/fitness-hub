@@ -2,20 +2,32 @@
     margin-top: 30px;
 }
 
-.add-breaks-container h3 {
-    margin-left: 20px;
-}
-
 .add-breaks-container p {
     font-weight: bold;
 }
 
 .add-breaks {
     border-radius: 10px;
-    margin: 20px;
     background-color: #f2f4fa;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 15px 5px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .add-breaks-container {
+        margin-top: 25px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .add-breaks-container {
+        margin-top: 20px;
+    }
+
+    .add-breaks {
+        padding: 10px 5px;
+    }
 }

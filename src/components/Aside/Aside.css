@@ -1,9 +1,10 @@
 .aside-container {
     background-color: #FFFFFF;
+    padding: 20px;
 }
 
 .completed {
-    margin: 20px;
+    margin: 10px 0px;
 }
 
 .completed-btn {
@@ -15,9 +16,33 @@
     font-size: 1rem;
     font-weight: bold;
     background-color: #4747f8;
-    ;
 }
 
 .completed-btn:hover {
     background-color: #2E2F46;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .aside-container {
+        padding: 15px;
+    }
+
+    .completed {
+        margin: 15px 0px;
+    }
+
+    .completed-btn {
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aside-container {
+        padding: 15px;
+    }
+
+    .completed {
+        margin: 10px 0px;
+    }
 }

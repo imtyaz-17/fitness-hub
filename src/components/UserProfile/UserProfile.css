@@ -21,11 +21,18 @@
 }
 
 .user-info h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.user-info p {
     margin: 5px;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .bio-container {
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     background-color: #f2f4fa;
     padding: 5px 5px;
@@ -51,4 +58,53 @@
 .user-bio-item small {
     color: #aeaeae;
     font-weight: 500;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .user-profile {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .user-img {
+        margin: 0 auto;
+        border-radius: 40%;
+    }
+
+    .user-info {
+        text-align: center;
+    }
+
+    .bio-container {
+        align-items: center;
+    }
+
+    .user-bio-item {
+        padding: 15px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .user-profile {
+        grid-template-columns: 2fr 3fr;
+    }
+
+    .user-img {
+        margin: 0 auto;
+        border-radius: 40%;
+    }
+
+    .user-info {
+        text-align: center;
+    }
+
+    .bio-container {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .user-bio-item {
+        padding: 15px;
+        text-align: center;
+    }
 }

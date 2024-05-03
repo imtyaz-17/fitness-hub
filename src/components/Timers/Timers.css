@@ -1,10 +1,9 @@
 .timer h3 {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .time {
-    margin: 20px;
     margin-bottom: 15px;
     border-radius: 10px;
     background-color: #f2f4fa;
@@ -19,4 +18,29 @@
 
 .time span {
     color: #aeaeae;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .timer h3 {
+        margin: 20px 0px;
+    }
+
+    .time {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timer h3 {
+        margin: 10px 0px;
+    }
+
+    .time {
+        margin-bottom: 8px;
+        padding: 5px 0px;
+    }
+
+    .time p {
+        font-size: 14px;
+    }
 }
