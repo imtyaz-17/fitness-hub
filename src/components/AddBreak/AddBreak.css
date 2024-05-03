@@ -1,0 +1,18 @@
+.add-breaks-container {
+    margin-top: 40px;
+
+}
+
+.add-breaks-container p {
+    font-weight: bold;
+}
+
+.add-breaks {
+    border-radius: 10px;
+    margin-right: 20px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}

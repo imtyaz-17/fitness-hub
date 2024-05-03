@@ -2,7 +2,6 @@
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 5fr;
-    /* align-items: center; */
 }
 
 .user-profile .user-img {
