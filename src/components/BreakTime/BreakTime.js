@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './BreakTime.css';
-const BreakTime = ({ breakTime }) => {
+
+const BreakTime = ({ breakTime, handleBreakTime }) => {
+    const [clicked, setClicked] = useState(false);
+
+    const handleClick = () => {
+        handleBreakTime(breakTime);
+        setClicked(!clicked);
+    };
+
     return (
         <div>
-            <button onClick={() => BreakTime(breakTime)} className='btn'><span>{breakTime}</span>s</button>
+            <button onClick={handleClick} className={`btn ${clicked ? 'clicked' : ''}`}>
+                <span>{breakTime}</span>s
+            </button>
         </div>
     );
 };

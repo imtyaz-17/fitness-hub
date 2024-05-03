@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Exercise.css';
-const Exercise = ({ exercise }) => {
-    const { id, image, name, description, age, time } = exercise;
+const Exercise = ({ exercise, handleAddCart }) => {
+    const { image, name, description, age, time } = exercise;
+    // const [cart, setCart] = useState([]);
     const stringSlicer = (str) => {
         if (str.length > 100) {
             return (str.slice(0, 100) + '...')
@@ -10,9 +11,11 @@ const Exercise = ({ exercise }) => {
     }
     const exerciseDescription = stringSlicer(description);
 
-    const handleAddCart = (id) => {
-        console.log('add', id)
-    }
+    // const handleAddCart = (exercise) => {
+    //     console.log(exercise);
+    //     const newCart = [...cart, exercise];
+    //     setCart(newCart);
+    // }
     return (
         <div className='exercise'>
             <div className='exercise-info'>
@@ -22,7 +25,7 @@ const Exercise = ({ exercise }) => {
                 <p className='age'>For Age: <strong>{age}</strong></p>
                 <p className='time-required'>Time Required: <strong>{time}s</strong></p>
             </div>
-            <button onClick={() => handleAddCart(id)} className='btn-cart'>
+            <button onClick={() => handleAddCart(time)} className='btn-cart'>
                 <p className='btn-text'>Add to Cart</p>
             </button>
         </div>

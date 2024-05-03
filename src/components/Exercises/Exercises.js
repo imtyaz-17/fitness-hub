@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Exercise from '../Exercise/Exercise';
 
-const Exercises = () => {
+const Exercises = (props) => {
+    // console.log('2. Exercises.js');
     const [exercises, setExercises] = useState([]);
     useEffect(() => {
         fetch('dataBase.json')
@@ -20,7 +21,7 @@ const Exercises = () => {
             </div>
             <div className='exercises-container'>
                 {
-                    exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise}></Exercise>)
+                    exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise} handleAddCart={props.handleAddCart}></Exercise>)
                 }
             </div>
         </div>

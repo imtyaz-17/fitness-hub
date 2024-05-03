@@ -1,13 +1,19 @@
 
+import { useState } from 'react';
 import './App.css';
 import Aside from './components/Aside/Aside';
 import Exercises from './components/Exercises/Exercises';
 
 function App() {
+  const [exerciseTime, setExerciseTime] = useState(0);
+  const handleAddCart = (time) => {
+    // console.log('1. App.js')
+    setExerciseTime(exerciseTime + parseInt(time));
+  }
   return (
     <div className="App">
-      <Exercises></Exercises>
-      <Aside></Aside>
+      <Exercises handleAddCart={handleAddCart}></Exercises>
+      <Aside exerciseTime={exerciseTime}></Aside>
     </div>
   );
 }
