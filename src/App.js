@@ -1,11 +1,13 @@
 
 import './App.css';
-import Excercises from './components/Exercises/Exercises';
+import Aside from './components/Aside/Aside';
+import Exercises from './components/Exercises/Exercises';
 
 function App() {
   return (
-    <div className="">
-      <Excercises></Excercises>
+    <div className="App">
+      <Exercises></Exercises>
+      <Aside></Aside>
     </div>
   );
 }

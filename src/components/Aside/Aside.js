@@ -3,12 +3,17 @@ import './Aside.css';
 
 import UserProfile from '../UserProfile/UserProfile';
 import AddBreak from '../AddBreak/AddBreak';
+import Timers from '../Timers/Timers';
 const Aside = () => {
     return (
-        <div>
+        <div className='aside-container'>
             <UserProfile></UserProfile>
             <AddBreak></AddBreak>
-        </div>
+            <Timers></Timers>
+            <div className='completed'>
+                <button className='completed-btn'>Activity Complete</button>
+            </div>
+        </div >
     );
 };
 

@@ -1,0 +1,22 @@
+.timer h3 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.time {
+    margin: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #f2f4fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.time p {
+    font-weight: 500;
+}
+
+.time span {
+    color: #aeaeae;
+}

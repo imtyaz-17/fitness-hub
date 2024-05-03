@@ -11,26 +11,17 @@ const Exercises = () => {
             .then(resp => resp.json())
             .then(data => setExercises(data))
     }, [])
-
-    // const handleAddToCart = () => {
-
-    // }
     return (
         <div className='main-container'>
-            <div className='left-container'>
-                <div>
-                    <h1 className='header-title'>
-                        <FontAwesomeIcon icon={faDumbbell} /> FITNESS HUB</h1>
-                    <h3>Choose your exercise plan</h3>
-                </div>
-                <div className='exercises-container'>
-                    {
-                        exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise}></Exercise>)
-                    }
-                </div>
+            <div>
+                <h1 className='header-title'>
+                    <FontAwesomeIcon icon={faDumbbell} /> FITNESS HUB</h1>
+                <h3>Choose your exercise plan</h3>
             </div>
-            <div className='right-container'>
-                <Aside></Aside>
+            <div className='exercises-container'>
+                {
+                    exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise}></Exercise>)
+                }
             </div>
         </div>
     );

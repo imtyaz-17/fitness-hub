@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  grid-gap: 40px;
+  background-color: #f2f4fa;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 6fr 2fr;
+
 }
 
 .App-logo {
@@ -32,6 +37,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
