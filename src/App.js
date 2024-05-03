@@ -1,8 +1,9 @@
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 import Aside from './components/Aside/Aside';
 import Exercises from './components/Exercises/Exercises';
+import { addToDb } from './utilities/localDB';
 
 function App() {
   const [exerciseTime, setExerciseTime] = useState(0);

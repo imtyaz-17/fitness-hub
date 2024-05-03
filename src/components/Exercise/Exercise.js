@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
 import './Exercise.css';
 const Exercise = ({ exercise, handleAddCart }) => {
     const { image, name, description, age, time } = exercise;
-    // const [cart, setCart] = useState([]);
+
     const stringSlicer = (str) => {
         if (str.length > 100) {
             return (str.slice(0, 100) + '...')
@@ -11,11 +10,6 @@ const Exercise = ({ exercise, handleAddCart }) => {
     }
     const exerciseDescription = stringSlicer(description);
 
-    // const handleAddCart = (exercise) => {
-    //     console.log(exercise);
-    //     const newCart = [...cart, exercise];
-    //     setCart(newCart);
-    // }
     return (
         <div className='exercise'>
             <div className='exercise-info'>

@@ -1,6 +1,9 @@
-const addToDb = id => {
-    let exerciseCart;
-    localStorage.setItem('exercise-cart', JSON.stringify(exerciseCart));
+const addToDb = breakTime => {
+    localStorage.setItem('stored-break-time', breakTime.toString());
 }
 
-export { addToDb }
+const getStoredTime = () => {
+    const prevBreakTime = localStorage.getItem('stored-break-time');
+    return prevBreakTime ? prevBreakTime : 0;
+}
+export { addToDb, getStoredTime }

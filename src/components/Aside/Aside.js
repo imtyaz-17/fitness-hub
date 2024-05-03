@@ -4,11 +4,14 @@ import './Aside.css';
 import UserProfile from '../UserProfile/UserProfile';
 import AddBreak from '../AddBreak/AddBreak';
 import Timers from '../Timers/Timers';
+import { addToDb, getStoredTime } from '../../utilities/localDB';
 const Aside = ({ exerciseTime }) => {
-    const [breakTime, setBreakTime] = useState(0);
+    const retrievedTime = getStoredTime();
+    const [breakTime, setBreakTime] = useState(retrievedTime);
 
     const handleBreakTime = bTime => {
         setBreakTime(bTime);
+        addToDb(bTime);
     }
     return (
         <div className='aside-container'>
