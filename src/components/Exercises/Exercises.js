@@ -3,6 +3,7 @@ import './Exercises.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Exercise from '../Exercise/Exercise';
+import Aside from '../Aside/Aside';
 const Exercises = () => {
     const [exercises, setExercises] = useState([]);
     useEffect(() => {
@@ -17,10 +18,11 @@ const Exercises = () => {
     return (
         <div className='main-container'>
             <div className='left-container'>
-                <h1 className='header-icon'>
-                    <FontAwesomeIcon icon={faDumbbell} />FITNESS HUB</h1>
-                <h2>Choose your exercise plan</h2>
-
+                <div>
+                    <h1 className='header-title'>
+                        <FontAwesomeIcon icon={faDumbbell} /> FITNESS HUB</h1>
+                    <h3>Choose your exercise plan</h3>
+                </div>
                 <div className='exercises-container'>
                     {
                         exercises.map(exercise => <Exercise key={exercise.id} exercise={exercise}></Exercise>)
@@ -28,9 +30,8 @@ const Exercises = () => {
                 </div>
             </div>
             <div className='right-container'>
-                <h2>aside </h2>
+                <Aside></Aside>
             </div>
-
         </div>
     );
 };

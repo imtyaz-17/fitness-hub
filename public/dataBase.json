@@ -19,7 +19,7 @@
         "id": "6335269641a74bc3461bd2f1",
         "image": "https://images.unsplash.com/photo-1540558870477-e8c59bf88421?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
         "name": "Treadmill",
-        "description": "Treadmill working is an aerobic cardio exercise.\r\n",
+        "description": "Treadmill working is an aerobic cardio exercise. stability and leg strength because of the number of muscles",
         "age": "21-29",
         "time": 40
     },
@@ -51,7 +51,7 @@
         "id": "633526967dea57829efb207b",
         "image": "https://hirakraja.com/4751-large_default/chin-up-and-dip-station-ab-tower-full-body-workout-power-tower.jpg",
         "name": "Power Tower",
-        "description": "A power tower, or a knee raise station, is a piece of exercise equipment.\r\n",
+        "description": "A power tower, or a knee raise station, is a piece of exercise equipment.muscle that is worked\r\n",
         "age": "20-32",
         "time": 25
     },
@@ -59,7 +59,7 @@
         "id": "63347c09b411eee78e859a54",
         "image": "https://bod-blog-assets.prod.cd.beachbodyondemand.com/bod-blog/wp-content/uploads/2022/10/26150738/static-lunge-600-demo.jpg",
         "name": "Lunges",
-        "description": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs.",
+        "description": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement.",
         "age": "20-32",
         "time": 60
     },
@@ -67,7 +67,7 @@
         "id": "63347c09ff14dcfe1e4e82c0",
         "image": "https://hips.hearstapps.com/hmg-prod/images/bodybuilder-doing-push-ups-royalty-free-image-1636040776.jpg",
         "name": "Pushups",
-        "description": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
+        "description": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles.",
         "age": "20-35",
         "time": 60
     }

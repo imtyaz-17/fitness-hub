@@ -4,7 +4,7 @@ import Excercises from './components/Exercises/Exercises';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Excercises></Excercises>
     </div>
   );

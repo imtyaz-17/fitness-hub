@@ -17,10 +17,22 @@
 .exercise-info {
     margin: 10px;
     text-align: left;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+    right: 0;
 }
 
 .exercise-info p {
+    color: #2e2e2e;
     margin-top: 5px;
+}
+
+.age,
+.time-required {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .exercise-title {
